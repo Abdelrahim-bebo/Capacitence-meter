@@ -17,7 +17,7 @@ The **Capacitance Meter** is an embedded systems project designed to measure and
 - **Display:** 7-seg
 - **Capacitor:** Capacitor With Any Value From Microfarad to Millifarad
 - **Resistor:** 10k ohms (or appropriate value for your circuit)
-- **Miscellaneous:** Breadboard, jumper wires, power supply, Latch 4094, 7-Seg, Crystal
+- **Miscellaneous:** Breadboard, jumper wires, power supply, Latch 4094, 7-Seg, Crystal Oscillator
 
 ## Software Requirements
 
