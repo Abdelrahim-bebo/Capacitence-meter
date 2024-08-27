@@ -2,7 +2,7 @@
 
 ## Overview
 
-The **Capacitance Meter** is an embedded systems project designed to measure and display the capacitance of electronic components accurately. This project uses an Arduino microcontroller to process the capacitance measurements and displays the results on a 7-seg display.
+The **Capacitance Meter** is an embedded systems project designed to measure and display the capacitance of electronic components accurately. This project uses an AT90S2313 microcontroller from ATMEGA to process the capacitance measurements and displays the results on a 7-seg display.
 
 ## Features
 
@@ -13,20 +13,14 @@ The **Capacitance Meter** is an embedded systems project designed to measure and
 
 ## Hardware Requirements
 
-- **Microcontroller:** Arduino (e.g., Arduino Uno)
+- **Microcontroller:** ATMEGA (e.g., AT90S2313)
 - **Display:** 7-seg
-- **Capacitor:** Component under test
+- **Capacitor:** Capacitor With Any Value From Microfarad to Millifarad
 - **Resistor:** 10k ohms (or appropriate value for your circuit)
-- **Miscellaneous:** Breadboard, jumper wires, power supply
+- **Miscellaneous:** Breadboard, jumper wires, power supply, Latch 4094, 7-Seg, Crystal
 
 ## Software Requirements
 
 - **IDE:** Atmel Studio
 - **Libraries:** LiquidCrystal library for seven-segment
 
-## Installation
-
-1. **Clone the Repository:**
-
-   ```bash
-   git clone https://github.com/Abdrlrahman-Mansour/Capacitance-Meter.git
